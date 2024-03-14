@@ -1,5 +1,11 @@
 # README
+## Introduction
 
+I chose the dataset with consideration for the real world and the GPU limitations of my PC. The dataset consists of labor laws in PDF format, focusing on the United Arab Emirates (UAE). However, it can be applied to labor laws of any country. The dataset contains 196 documents. This dataset serves as a real-world application where users can ask questions about labor legislation, and the system will respond with relevant information.
+
+## Model Selection
+
+GPT (Generative Pre-trained Transformer) is the chosen model for this project due to its exceptional capabilities in question answering tasks. While my computer's limitations prevented training on large parameter models, GPT-Neo with 125 million parameters still provides significant power and flexibility for this application.
 ## Why GPT-Neo is a Better Option
 
 - **Diverse and Human-like Response**: GPT models have the capacity to comprehend a wide range of patterns and provide responses that are human-like.
